@@ -11,10 +11,10 @@ require 'pp'
 
 
 def print_first_directors_movie_titles
-  puts directors_database[0][:movies]
+  c= directors_database[0][:movies]
 m=0 
-while m < directors_database.length 
- 
+while m < c.length 
+ puts directors_database[:title]
 m+=1
 end
 end
